@@ -1,0 +1,116 @@
+/*
+ * $Header: $
+ * $Author: MLS Development Team $
+ * $Revision: 0.02 $
+ * $Date: 2012/01/01 00:00:00 $
+ *
+ * ====================================================================
+ *
+ * Copyright (C) 2011-2012 by MassiveLogicSystem.com
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ *
+ */
+
+//////////////////////////////////////////////////////////////////////////////////
+//      Aylin 0.0.3 -  $Date: 2012/01/01 00:00:00 $
+//////////////////////////////////////////////////////////////////////////////////
+
+
+
+    IMPORTANT: READ THIS FILE THOTHOUGHLY BEFORE USING Aylin
+
+
+
+0. Table of Contents
+==================================================================================
+
+0. Table of Contents
+1. Aylin 0.0.3 Introduction
+2. Installation/Upgrade Instruction
+3. Aylin Development
+4. Aylin License Agreement
+
+
+
+1. Aylin 0.0.3 Introduction
+==================================================================================
+
+Thank you for downloading Aylin from http://massivelogicsystem.com/aylin. If you
+downloaded this zip-file from an other sites, please check http://massivelogicsystem.com/aylin
+for the latest official release.
+
+Developed by
+- Antonio Hermosilla Parra <hermosilla.antonio@gmail.com>
+- Francisco Rodriguez Gimeno <frodgim@gmail.com>
+
+And many thanks to all the contributors to Aylin, among them are:
+
+
+2. Installation/Upgrade Instructions
+==================================================================================
+Please read the file INSTALL.TXT for detailed information on
+how to install and/or upgrade Aylin. This instruction is for
+the binary distribution package of Aylin.
+
+
+3. Aylin Development
+==================================================================================
+If you would like join the Aylin development team and contribute your
+code/patch, please read the file DEVELOPER.TXT first. It contains some
+important notes
+
+
+
+4. Aylin License Agreement
+==================================================================================
+You MUST agree the "Aylin License Agreement" before using Aylin:
+
+All copyright notices regarding Aylin MUST remain intact in
+the scripts and in the outputted HTML. The "powered by" text/logo
+with a link back to http://massivelogicsystem.com/aylin and http://massivelogicsystem.com
+in the footer of the pages MUST remain visible when the pages are viewed
+on the internet or intranet.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+STOP USING Aylin NOW IF YOU DO NOT AGREE THE ABOVE LICENSE
+
+NOTE: In case you need to remove this "Powered by Aylin", please contact us at
+      web site http://massivelogicsystem.com to order a special "Copyright notice Removal" license
+      with a small license fee. After receiving this special license, you can remove
+      the copyright notice in this footer.jsp file.
+
+NOTE: This product includes software developed by:
+	
+      Zend Technologies Ltd	http://framework.zend.com/
+      The jQuery Project	http://jquery.com/
+
+
+==================================================================================
+
+Cheers!
+
+Antonio Hermosilla Parra (Developer)
+http://massivelogicsystem.com/aylin
+

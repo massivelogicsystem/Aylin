@@ -1,0 +1,75 @@
+<!-- 
+
+Copyright (C) 2011 MassiveLogicSystem Development Team
+
+This file is part of Aylin.
+
+Aylin is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Aylin is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Aylin.  If not, see <http://www.gnu.org/licenses/>.
+
+-->
+
+<?php echo $this->doctype() ?>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<?php echo $this->headTitle(); ?>
+
+	<?php echo $this->headLink()->appendStylesheet($this->baseUrl('css/common/style.css')) ?>
+	<?php echo $this->headLink()->appendStylesheet($this->baseUrl('css/' . $this->enviroment_theme .'/jquery-ui-1.7.3.custom.css')) ?>     
+
+</head>
+<body>
+
+	<!-- HEADER -->
+	
+	<div class="header">
+
+		<div class="header no-border">
+			<div class="header-logo">
+				<a class="none" href="<?php echo $this->baseUrl(); ?>"><img src="<?php echo $this->baseUrl('css/common/img/aylin_logo.png') ?>" alt="" /></a>
+			</div>
+			<div class="header-panel">texto de menu</div>
+		</div>
+	
+		<div class="ui-widget-header header-location">
+			<div style="display:table-cell; padding: 4px; vertical-align: middle; padding-left: 15px; color: white; font-weight: bold;">Aylin installation</div>
+		</div>
+	
+		<div class="ui-widget-content header-submenu">
+		</div>
+		
+	</div>
+
+	<!-- CONTENT -->
+	
+	<div class="content">
+		<?php echo $this->layout()->content; ?>
+	</div>
+
+	<!-- TAIL -->
+	
+	<div class="tail">
+		<div style="margin: 5px; text-align: center;">
+			<span class="bold"><?php echo $this->application_name; ?></span> <?php echo $this->application_type; ?> - <?php echo $this->translate("Version"); ?> <?php echo $this->application_version; ?> <?php echo $this->application_date; ?>
+		</div>
+	</div>
+	
+</body>
+</html>
+
+
+
+
