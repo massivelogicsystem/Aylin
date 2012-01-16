@@ -31,7 +31,7 @@ class Constant
 	
 	// Available themes: le-frog, redmond, smoothness, start, ui-lightness (powered by JQuery UI).
 	const enviroment_theme = "redmond";
-	const enviroment_theme_install = "smoothness";
+	const enviroment_theme_install = "redmond";
 }
 
 

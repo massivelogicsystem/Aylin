@@ -45,9 +45,23 @@ along with Aylin.  If not, see <http://www.gnu.org/licenses/>.
 	<!-- content -->
 	<div class="ae-display-inline-block" style="padding: 10px; width: 100%;">
 		<div class="ae-content-steps">
-			<div class="ui-widget-content ae-content-block ae-content-steps-title">Steps</div>
-			<div class="ae-content-block-data">
-				hola
+			<div class="ui-widget-content ae-content-block">
+				<span class="ae-font-title"><?php echo $this->translate("Steps"); ?>:</span>
+				
+				<div class="ae-content-block-data">
+	
+					<?php foreach($this->stepsList as $index => $step ): ?>
+
+					<?php if ( $index == $this->currentStep ) { ?> 
+						<div class="ui-priority-primary"><?php echo $this->translate($step); ?></div>
+					<?php } else { ?>
+						<div class="ui-priority-secondary"><?php echo $this->translate($step); ?></div>
+					<?php } ?>
+						
+					<?php endforeach; ?>  
+	
+				</div>
+			
 			</div>
 		</div>
 		

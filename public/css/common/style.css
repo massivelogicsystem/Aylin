@@ -133,10 +133,11 @@ div.content {
 .ae-content-buttons { float: left; width: 20%; }
 
 .ae-content-block { 
-	/*
+	padding: 5px;
+
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	*/
+
 }
 .ae-content-block-data { padding: 5px; }
 .ae-context-block-separator { float: left; width: 1%; font-size: 0.0em; }
@@ -154,7 +155,11 @@ div.content {
 
 .ae-float-left { float: left; }
 
-.ae-font-normal { font-weight: normal; }
-.ae-font-bold { font-weight: bold; }
-.ae-font-min { font-weight: normal; font-size: .9em;  }
+/* fonts -------------------------------------------------------------------------- */
+
 .ae-font-max { font-weight: bold; font-size: 1.3em; }
+.ae-font-title { font-weight: bold; font-size: 1.1em; }
+.ae-font-bold { font-weight: bold; }
+.ae-font-normal { font-weight: normal; }
+.ae-font-min { font-weight: normal; font-size: .9em;  }
+

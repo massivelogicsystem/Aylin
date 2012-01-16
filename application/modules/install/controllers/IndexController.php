@@ -31,9 +31,17 @@ class Install_IndexController extends Zend_Controller_Action
 
     public function indexAction()
     {
-        // action body
+    	$stepsList = array(
+    			"Choose language",
+    			"Verify requirements",
+    			"Set up database",
+    			"Install system",
+    			"Configure enviroment",
+    			"Summary"
+    			);
+
+    	$this->view->currentStep = 0;
+    	$this->view->stepsList = $stepsList;
     }
-
-
 }
 
